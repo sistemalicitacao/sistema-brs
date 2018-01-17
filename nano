@@ -1,0 +1,9 @@
+AV svn
+SVNListParentPath on
+#(local do repositório onde vão estar seus projetos)
+SVNParentPath "/var/svn/repositorio" 
+AuthType Basic
+AuthName "BRS"
+#(arquivo com as senhas dos usuários)
+AuthUserFile "/var/svn/repositorio/.svnpasswd" 
+Require valid-user
